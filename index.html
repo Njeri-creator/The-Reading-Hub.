@@ -2,28 +2,57 @@
 <html>
   <head>
     <title>The reading hub</title>
-    <style>
-    div{
-      background-color:red;
-    }
-    h2{
-      color: aqua;
-    }
-    </style>
+    <link rel="stylesheet" href="Styles.css">
+    
+      
+    
   </head>
   <body>
-    <ul style="list-style-type: none;display: block;color: red;">
-      <li style="float: left;">The reading hub.</li>
-      <li style="float: right; margin: 5px;">Home </li>
-      <li style="float: right; margin: 5px;"> <a href="./Books.html">Books</a></li>
-      <li style="float: right; margin: 5px;"> <a href="./Contact.html">Contact us</a></li>
-    </ul>
-    <br>
-    <h1 style="color:deeppink;background-color:lightpink;">Welcome to the reading hub.A place to discover.</h1>
-<div>
-  <h3>Harry potter</h3>
-  <p>This is an intresting book.ghh</p>
-</div>
-<h2>Discover amazing stories perfect for teens.</h2>
+    <div class="container">
+      <div class="logo">
+        <h1>The reading hub.</h1>
+      </div>
+      <nav>
+        <ul style="list-style-type: none; color: lightcoral" class="links">          
+          <li>Home</li>
+          <li>
+            <a href="./Books.html">Books</a>
+          </li>
+          <li>
+            <a href="./Contact.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <br />
+    <div class="hero">
+      <div class="hero-text">
+<h1  id="Welcome">
+      Welcome to the reading hub.A place to discover.
+    </h1> 
+    <h2>Discover amazing stories perfect for teens.</h2>
+    <a href="Books.html" class="button">Explore books</a>
+      </div>
+
+    </div>
+    <div class="featured">
+      <h1>Featured books</h1>
+      <div class="cards">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvJ1BOAe0xS3jy5jUVd-nfAUjDqIS5T2HLhw&s" class="card_image">
+          <h2>Harry Potter</h2>
+          <p> by J.K Rowling</p>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+
+      </div>
+
+    </div>
+    
+    
+  
+    
   </body>
 </html>
